@@ -1,0 +1,366 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* Header Menu Hide Media Css */
+ a.togle-icon {
+    position: absolute;
+    top: 55px;
+    right: 46px;
+    color: #333;
+}
+.logo-area {
+    
+    margin-left: 0 !important;
+}
+
+
+.logo-area img {
+    width: 182px;
+    height: 65px;
+}
+
+ .header-top-area {
+    display: none;
+}
+
+.publish-date p {
+   
+    margin-left: 0px;
+    text-align: center;
+}
+
+.search__icon {
+  
+    top: 28px;
+  
+  
+}
+
+.publish-info ul li {
+   
+    font-size: 12px;
+}
+.card-img-overlay {
+    top: 110px !important;
+}
+.big-img .card-text {
+    font-size: 19px;
+    /* font-weight: 500; */
+}
+
+img.card-img.img-fluid {
+    margin-bottom: 14px;
+}
+.single-news-gallary-box.small-img .card img {
+    margin-bottom: 13px;
+}
+.news-heading h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+.box-heading h3 {
+    font-size: 16px;
+   
+}
+
+.box-details p {
+    font-size: 14px;
+   
+}
+.area-title {
+    margin-left: 36px;
+
+    margin-top: 20px;
+}
+a.app-box {
+  
+    width: 149px;
+    height: 50px;
+    margin-left: -60px;
+    margin-bottom: 5px;
+}
+
+
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* Header Menu Hide Media Css */
+
+
+     /* Header Menu Hide Media Css */
+ 
+     a.togle-icon {
+        position: absolute;
+        top: 55px;
+        right: 48px;
+        color: #333;
+    }
+    
+    .logo-area {
+        
+        margin-left: 0 !important;
+    }
+    
+    .logo-area img {
+        width: 182px;
+        height: 65px;
+    }
+    
+     .header-top-area {
+        display: none;
+    }
+    
+    
+    .publish-date p {
+       
+        margin-left: 0px;
+        text-align: center;
+    }
+    .logo-area {
+        text-align: center;
+        margin-left: 44px;
+    }
+    .search__icon {
+      
+        top: 28px;
+      
+      
+    }
+    
+    .publish-info ul li {
+       
+        font-size: 12px;
+    }
+    .card-img-overlay {
+        top: 110px !important;
+    }
+    .big-img .card-text {
+        font-size: 19px;
+        /* font-weight: 500; */
+    }
+    
+    img.card-img.img-fluid {
+        margin-bottom: 14px;
+    }
+    .single-news-gallary-box.small-img .card img {
+        margin-bottom: 13px;
+    }
+    .news-heading h3 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .box-heading h3 {
+        font-size: 16px;
+       
+    }
+    
+    .box-details p {
+        font-size: 14px;
+       
+    }
+    .area-title {
+        margin-left: 36px;
+    
+        margin-top: 20px;
+    }
+    a.app-box {
+        width: 149px;
+        height: 50px;
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    .border-right {
+        display: none;
+    }
+    .apps-area {
+        margin-left: 0;
+    }
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* Header Menu Hide Media Css */
+
+.header-form {
+    display: none !important;
+}
+    .navbar-default {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+         -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink {
+         padding: 0 0;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 59%;
+    }
+
+    .togle-icon i {
+        
+        display: none;
+    }
+    .search__icon {
+       
+        top: 36px;
+        
+    }
+    .main-nav ul li a {
+        font-size: 14px;
+        color: #222222;
+        margin-left: 0;
+        /* font-weight: 600; */
+        /* padding: 0 0; */
+        border-left: 1px solid #ddd;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .off-canvas-menu {
+      
+        display: none;
+    }
+    .togle-icon i {
+       
+        display: none;
+    }
+    .publish-date p {
+        font-size: 17px;
+        
+        margin-left: 230px;
+    }
+    .header-form {
+        display: none !important;
+    }
+
+    .navbar-default {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 0 0;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 59%;
+    }
+    .apps-area {
+        margin-left: 0;
+    }
+        
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* ===========Main Header Media Css Start */
+
+.off-canvas-menu {
+      
+    display: none;
+}
+    .togle-icon i {
+       
+        display: none;
+    }
+    .publish-date p {
+         font-size: 17px;
+         margin-left: 230px;
+    }
+
+    .header-form {
+        display: none !important;
+    }
+    .navbar-default {
+         padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 0 0;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 59%;
+    }
+/* ===========Main Header Media Css end */
+
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+/* ===========Main Header Media Css Start */
+    .off-canvas-menu {
+        display: none;
+    }   
+    .togle-icon i { 
+        display: none;
+    }
+    .navbar-default {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 0 0;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+/* ===========Main Header Media Css end */
+
+
+
+
+
+
+
+
+ }
